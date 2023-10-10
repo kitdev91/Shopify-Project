@@ -70,7 +70,7 @@
         "type": "header",
         "settings": {
           "logo_max_width": 100,
-          "main_linklist": "main-menu",
+          "main_linklist": "main-menu-1",
           "message": false,
           "home_page_only": true,
           "message_text": "Announce something here",
