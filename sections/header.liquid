@@ -83,7 +83,7 @@
       </div>
       <ul class="menu "> <!--mobile-menu -->
         <!--start menu loop-->
-        {% for link in linklists.main-menu.links %}
+        {% for link in linklists.main_linklist.links %}
           {% assign child_list_handle = link.title | handleize %}
           {% if linklists[child_list_handle].links != blank %}
           <li class="link dropdown">
@@ -166,7 +166,7 @@
 
       <ul class="menu">
         <!--start menu loop-->
-        {% for link in linklists.main-menu.links %}
+        {% for link in linklists.main_linklist.links %}
           {% assign child_list_handle = link.title | handleize %}
           {% if linklists[child_list_handle].links != blank %}
           <li class="link dropdown">
