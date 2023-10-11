@@ -1,48 +1,42 @@
 {
-  "current": "Default",
-  "presets": {
-    "Default": {
-      "header_logo_color": "#ffffff",
-      "header_menu_links": "#ffffff",
-      "header_bg_color": "#000000",
-      "highlight_color": "#ffff00",
-      "color_text": "#1b1b1b",
-      "color_body_text": "#1b1b1b",
-      "social_twitter_link": "https://www.twitter.com/profile",
-      "social_facebook_link": "https://www.facebook.com/profile",
-      "social_pinterest_link": "https://www.pinterest.com/profile",
-      "social_instagram_link": "https://www.instagram.com/profile",
-      "social_youtube_link": "https://www.youtuber.com/profile",
-      "social_vimeo_link": "https://www.vimeo.com/profile",
-      "sections": {
+  "current": {
+    "header_logo_color": "#ffffff",
+    "header_menu_links": "#ffffff",
+    "header_bg_color": "#000000",
+    "highlight_color": "#ffff00",
+    "color_text": "#1b1b1b",
+    "color_body_text": "#1b1b1b",
+    "social_twitter_link": "https:\/\/www.twitter.com\/profile",
+    "social_facebook_link": "https:\/\/www.facebook.com\/profile",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/profile",
+    "social_instagram_link": "https:\/\/www.instagram.com\/profile",
+    "social_youtube_link": "https:\/\/www.youtuber.com\/profile",
+    "social_vimeo_link": "https:\/\/www.vimeo.com\/profile",
+    "sections": {
       "jumbo": {
         "type": "jumbo",
         "blocks": {
           "jumbo-0": {
             "type": "image",
             "settings": {
-              "bottom_image": "",
               "bottom_image_url": ""
             }
           },
           "jumbo-1": {
             "type": "image",
             "settings": {
-              "bottom_image": "",
               "bottom_image_url": ""
             }
           },
           "jumbo-2": {
             "type": "image",
             "settings": {
-              "bottom_image": "",
               "bottom_image_url": ""
             }
           },
           "jumbo-3": {
             "type": "image",
             "settings": {
-              "bottom_image": "",
               "bottom_image_url": ""
             }
           }
@@ -55,7 +49,6 @@
         ],
         "settings": {
           "bg_type": "video",
-          "bg_image": "",
           "video_type": "vimeo",
           "video_id": "353546049",
           "jumbo_h1": "OFF WHITE",
@@ -76,9 +69,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "",
           "logo_max_width": 100,
-          "main_linklist": "main-menu",
+          "main_linklist": "main-menu-1",
           "message": false,
           "home_page_only": true,
           "message_text": "Announce something here",
@@ -295,6 +287,302 @@
       "1595692598158",
       "1595692615655"
     ]
+  },
+  "presets": {
+    "Default": {
+      "header_logo_color": "#ffffff",
+      "header_menu_links": "#ffffff",
+      "header_bg_color": "#000000",
+      "highlight_color": "#ffff00",
+      "color_text": "#1b1b1b",
+      "color_body_text": "#1b1b1b",
+      "social_twitter_link": "https:\/\/www.twitter.com\/profile",
+      "social_facebook_link": "https:\/\/www.facebook.com\/profile",
+      "social_pinterest_link": "https:\/\/www.pinterest.com\/profile",
+      "social_instagram_link": "https:\/\/www.instagram.com\/profile",
+      "social_youtube_link": "https:\/\/www.youtuber.com\/profile",
+      "social_vimeo_link": "https:\/\/www.vimeo.com\/profile",
+      "sections": {
+        "jumbo": {
+          "type": "jumbo",
+          "blocks": {
+            "jumbo-0": {
+              "type": "image",
+              "settings": {
+                "bottom_image": "",
+                "bottom_image_url": ""
+              }
+            },
+            "jumbo-1": {
+              "type": "image",
+              "settings": {
+                "bottom_image": "",
+                "bottom_image_url": ""
+              }
+            },
+            "jumbo-2": {
+              "type": "image",
+              "settings": {
+                "bottom_image": "",
+                "bottom_image_url": ""
+              }
+            },
+            "jumbo-3": {
+              "type": "image",
+              "settings": {
+                "bottom_image": "",
+                "bottom_image_url": ""
+              }
+            }
+          },
+          "block_order": [
+            "jumbo-0",
+            "jumbo-1",
+            "jumbo-2",
+            "jumbo-3"
+          ],
+          "settings": {
+            "bg_type": "video",
+            "bg_image": "",
+            "video_type": "vimeo",
+            "video_id": "353546049",
+            "jumbo_h1": "OFF WHITE",
+            "jumbo_h2": "New Collection"
+          }
+        },
+        "two-collections": {
+          "type": "two-collections",
+          "settings": {
+            "collection1": "summer-sale",
+            "collection1_text_color": "#ffffff",
+            "collection1_bg_color": "#ffff00",
+            "collection2": "trending",
+            "collection2_text_color": "#ffffff",
+            "collection2_bg_color": "#dddfe4"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 100,
+            "main_linklist": "main-menu",
+            "message": false,
+            "home_page_only": true,
+            "message_text": "Announce something here",
+            "message_link": "",
+            "color_bg": "#3a3a3a",
+            "color_text": "#ffffff"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+            "image": "",
+            "layout": "left",
+            "title": "Image with text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Add a title or tagline",
+                "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Add a title or tagline",
+                "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Add a title or tagline",
+                "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left"
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "title": "Featured collection",
+            "collection": "",
+            "grid": 4,
+            "rows": 2,
+            "show_vendor": false,
+            "show_view_all": false
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+                "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+                "author": "Author's name"
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+                "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+                "author": "Author's name"
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+                "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+                "author": "Author's name"
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center",
+                "link": "",
+                "cta_label": ""
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center",
+                "link": "",
+                "cta_label": ""
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center",
+                "link": "",
+                "cta_label": ""
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+            "section_height": "medium"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+                "title": "Quick links",
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0"
+          ],
+          "settings": {
+            "color_footer_bg": "#1b1b1b",
+            "color_footer_menu_links": "#ffffff",
+            "color_footer_text": "#333232",
+            "footer_bottom_text": "Storename 22 Grand Ave, L.A, California 55555"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_payment_button": true,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "heading": "You may also like",
+            "show_vendor": false
+          }
+        },
+        "1595692598158": {
+          "type": "horizontal-sale",
+          "settings": {
+            "collection": "80-off",
+            "percent": "80%",
+            "collection_bg_color": "#000000"
+          }
+        },
+        "1595692615655": {
+          "type": "product-group",
+          "settings": {
+            "collection": "frontpage",
+            "max_products": "4",
+            "product_info_bg_color": "#000000"
+          }
+        }
+      },
+      "content_for_index": [
+        "jumbo",
+        "two-collections",
+        "1595692598158",
+        "1595692615655"
+      ]
     },
     "Light": {
       "color_text": "#162950",
@@ -344,23 +632,26 @@
       "sections": {
         "jumbo": {
           "type": "jumbo",
-          "settings": {},
           "blocks": {
             "jumbo-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "jumbo-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "jumbo-2": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "jumbo-3": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -368,16 +659,18 @@
             "jumbo-1",
             "jumbo-2",
             "jumbo-3"
-          ]
+          ],
+          "settings": {
+          }
         },
         "two-collections": {
           "type": "two-collections",
-          "settings": {}
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
           "settings": {
-            "align_logo": "left",
             "logo": "",
             "logo_max_width": 135,
             "main_linklist": "main-menu",
@@ -412,21 +705,15 @@
               }
             }
           },
-          "block_order": ["slideshow-0", "1492095993817"],
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
           "settings": {
             "slideshow_height": "medium",
             "text_size": "medium",
             "autorotate": false,
             "autorotate_speed": 5
-          }
-        },
-        "featured-collections": {
-          "type": "collection",
-          "settings": {
-            "grid": 3,
-            "rows": 1,
-            "show_vendor": true,
-            "show_view_all": true
           }
         },
         "product-template": {
@@ -451,59 +738,6 @@
             "show_vendor": false,
             "sort_enable": true,
             "tags_enable": true
-          }
-        },
-        "1492033809691": {
-          "type": "map",
-          "settings": {}
-        },
-        "1492033877875": {
-          "type": "quotes",
-          "blocks": {
-            "1492033877875-0": {
-              "type": "quote",
-              "settings": {}
-            }
-          },
-          "block_order": ["1492033877875-0"],
-          "settings": {}
-        },
-        "1492033924902": {
-          "type": "custom-content",
-          "blocks": {
-            "1492033924902-0": {
-              "type": "text",
-              "settings": {
-                "width": "100%",
-                "alignment": "center",
-                "align_text": "center"
-              }
-            }
-          },
-          "block_order": ["1492033924902-0"],
-          "settings": {
-            "title": ""
-          }
-        },
-        "1492096252560": {
-          "type": "collection-list",
-          "blocks": {
-            "1492096252560-0": {
-              "type": "featured_collection",
-              "settings": {}
-            },
-            "1492096252560-1": {
-              "type": "featured_collection",
-              "settings": {}
-            },
-            "1492096252560-2": {
-              "type": "featured_collection",
-              "settings": {}
-            }
-          },
-          "block_order": ["1492096252560-0", "1492096252560-1", "1492096252560-2"],
-          "settings": {
-            "grid": 3
           }
         },
         "blog-template": {
@@ -533,14 +767,21 @@
           "blocks": {
             "link_list": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             }
           },
-          "block_order": ["link_list"],
-          "settings": {}
+          "block_order": [
+            "link_list"
+          ],
+          "settings": {
+          }
         }
       },
-      "content_for_index": ["jumbo", "two-collections"]
+      "content_for_index": [
+        "jumbo",
+        "two-collections"
+      ]
     }
   }
 }
