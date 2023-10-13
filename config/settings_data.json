@@ -271,21 +271,12 @@
           "percent": "80%",
           "collection_bg_color": "#000000"
         }
-      },
-      "1595692615655": {
-        "type": "product-group",
-        "settings": {
-          "collection": "frontpage",
-          "max_products": "4",
-          "product_info_bg_color": "#000000"
-        }
       }
     },
     "content_for_index": [
       "jumbo",
       "two-collections",
-      "1595692598158",
-      "1595692615655"
+      "1595692598158"
     ]
   },
   "presets": {
